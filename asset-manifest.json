@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.js": "/kaixuant/static/js/main.2669e00a.chunk.js",
+    "main.js.map": "/kaixuant/static/js/main.2669e00a.chunk.js.map",
+    "runtime-main.js": "/kaixuant/static/js/runtime-main.2284c45b.js",
+    "runtime-main.js.map": "/kaixuant/static/js/runtime-main.2284c45b.js.map",
+    "static/js/2.269696f3.chunk.js": "/kaixuant/static/js/2.269696f3.chunk.js",
+    "static/js/2.269696f3.chunk.js.map": "/kaixuant/static/js/2.269696f3.chunk.js.map",
+    "static/js/3.e26b7338.chunk.js": "/kaixuant/static/js/3.e26b7338.chunk.js",
+    "static/js/3.e26b7338.chunk.js.map": "/kaixuant/static/js/3.e26b7338.chunk.js.map",
+    "index.html": "/kaixuant/index.html",
+    "static/js/2.269696f3.chunk.js.LICENSE.txt": "/kaixuant/static/js/2.269696f3.chunk.js.LICENSE.txt",
+    "static/media/Capture.e3c969c8.PNG": "/kaixuant/static/media/Capture.e3c969c8.PNG",
+    "static/media/Ignite.005762bb.PNG": "/kaixuant/static/media/Ignite.005762bb.PNG",
+    "static/media/MusicPlayer.82d1b954.PNG": "/kaixuant/static/media/MusicPlayer.82d1b954.PNG",
+    "static/media/YelpCamp.b032113f.PNG": "/kaixuant/static/media/YelpCamp.b032113f.PNG",
+    "static/media/kaixuan.449eedd0.jpg": "/kaixuant/static/media/kaixuan.449eedd0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2284c45b.js",
+    "static/js/2.269696f3.chunk.js",
+    "static/js/main.2669e00a.chunk.js"
+  ]
+}
