@@ -54,10 +54,22 @@ const StyledSkills= styled.div`
     color: white;
     h2{
         margin-right: 3rem;
-    }`
+    }
+    @media screen and (max-width: 1051px){
+        display: block;
+        padding: 3rem;
+    }
+    @media screen and (max-width: 700px){
+        font-size: 1rem;
+    }
+    `
     
 const SkillBlocks = styled.div`
-    display: flex;`
+    display: flex;
+    @media screen and (max-width: 700px){
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(120px, 1fr));
+    }`
 
 
 const Skill = styled.div`
@@ -73,6 +85,12 @@ const Skill = styled.div`
     }
     li{
         padding-bottom: 0.5rem;
+    }
+    @media screen and (max-width: 700px){
+        h3{
+            padding-bottom: 0.3rem;
+            padding-top: 0.5rem;
+        }
     }
     `
 

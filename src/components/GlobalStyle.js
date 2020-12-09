@@ -18,7 +18,7 @@ body{
         padding: 1.5rem;
     }
     h2{
-        padding: 1rem;
+        padding: 1rem 0;
     }
     }
     h3{
@@ -28,8 +28,11 @@ body{
         color:#404040;
     }
     
-    button {
-    font-size: 15px;
+    a{
+    display: inline-block;
+    font-size: 18px;
+    text-decoration: none;
+    color: #404040;
     padding: 0.8rem 1.5rem;
     cursor: pointer;
     border: 3px solid  #404040;
@@ -45,7 +48,6 @@ body{
         line-height: 1.5;
     }
 }
-
     `
 
 export default GlobalStyle;

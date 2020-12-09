@@ -4,18 +4,19 @@ import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import GlobalStyle from './components/GlobalStyle';
-import Nav from './components/Nav';
+import Footer from './components/Footer';
 
 
 function App() {
   return (
     <div>
       <GlobalStyle />
-      <Nav />
       <Cover />
-      <AboutMe />
+      <AboutMe id="aboutMe"/>
+
       <Skills />
       <Projects />
+      <Footer />
     </div>
   );
 }

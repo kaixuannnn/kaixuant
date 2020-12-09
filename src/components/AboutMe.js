@@ -24,12 +24,31 @@ const About = styled.div`
     align-items: center;
     text-align: center;
     padding: 5rem 10rem;
+    @media screen and (max-width: 1051px){
+    padding: 2rem 3rem;
+    display: block;
+    }
+    @media screen and (max-width: 700px){
+        padding: 1rem 1rem;
+    }
     `
 const Desc =styled.div`
     flex:1;
     padding-right: 5rem;
     p{
         font-size:1.2rem;
+    }
+    @media screen and (max-width: 1051px){
+    padding: 2rem 3rem;
+    text-align: center;
+    }
+    @media screen and (max-width: 700px){
+        h1{
+            font-size: larger
+        }
+        p{
+            font-size: 1rem;
+        }
     }
     `
 const Image =styled.div`
