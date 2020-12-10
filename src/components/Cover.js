@@ -1,20 +1,22 @@
 import React from 'react';
 import styled from "styled-components";
+import {motion} from 'framer-motion';
+import {titleAnim, fade} from '../animation';
 
 const Cover =()=>{
     return (
         <StyledCover>
-            <h1>Hi! I am Kai Xuan.</h1>
-             <p> A Front-End Developer focused on building beautiful interfaces & experiences :)</p>
+            <motion.h1 variants={titleAnim} initial='hidden' animate='show'>Hi! I am Kai Xuan.</motion.h1>
+             <motion.p variants={fade} initial='hidden' animate='show'> A MERN stack Web Developer focused on building beautiful, effecient interfaces & experiences :)</motion.p>
              <div className="buttons">
-             <a href="https://1drv.ms/b/s!AgaMvoBPUH7ClDMzqBv3sX-CDM9A?e=Tgdb8k" target="_blank">My Resume</a>
-             <a href="https://github.com/kaixuannnn" target="_blank">My Projects</a>
+             <a href='../assets/KaiXuanResume.pdf' download="KaiXuanResume.pdf">My Resume</a>
+             <a href="https://github.com/kaixuannnn" target="_blank" rel="noreferrer">My Projects</a>
              </div>
         </StyledCover>
     )
 }
 
-const StyledCover =styled.div`
+const StyledCover =styled(motion.div)`
     min-height: 100vh;
     background-color: #bfbfbf;
     display: flex;

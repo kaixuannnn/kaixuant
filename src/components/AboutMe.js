@@ -1,10 +1,18 @@
 import React from 'react';
 import myPhoto from '../assets/kaixuan.jpg';
 import styled from 'styled-components';
+import {motion} from 'framer-motion';
+import { scrollReveal } from "../animation";
+import { useScroll } from "./useScroll";
+
 
 const AboutMe = () =>{
+    const [element, controls] = useScroll();
     return(
-        <About>
+        <About variants={scrollReveal}
+        animate={controls}
+        initial="hidden"
+        ref={element}>
         <Desc>
             <h1>Tan Kai Xuan</h1>
             <p>An Engineering Fresh Graduate who is passionate in internet industry, enthusiastic in creating things on
@@ -18,7 +26,7 @@ const AboutMe = () =>{
     )
 }
 
-const About = styled.div`
+const About = styled(motion.div)`
     display: flex;
     min-height: 100vh;
     align-items: center;
