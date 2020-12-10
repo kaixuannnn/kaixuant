@@ -37,7 +37,7 @@ const Projects =()=>{
                 </Details>
             </Toggle>
 
-            <Toggle title="Music Player" description="A small music player application architected by ReactJS." picture={MusicPlayer}>
+            <Toggle title="Music Player" description="A mobile responsive music player application architected by React Hook, styiling with NodeSASS." picture={MusicPlayer}>
                 <Details>
                     <Tech>
                         <p>JavaScript</p>
@@ -118,22 +118,26 @@ const Tech = styled.div`
         display: inline-block;
         padding: 0.5rem;
         margin:0.5rem 0.3rem 0 0;
+        color: lightgrey;
+        background:#404040; 
         border: solid 2px #404040;
         border-radius: 10px;
     }
     `
 const Links = styled.div`
     a{
-        display: inline-block;
+        /* display: inline-block;
         text-decoration:none;
-        background-color: #404040;
-        color: white;
+        color: #404040;
+        background-color: white; */
         padding: 1rem 1.5rem;
-        border: solid #404040 2px;
-        margin: 1rem 1rem 1rem 0rem;
+        /* border: solid #404040 2px; */
+        margin: 1rem 5rem 1rem 0rem;
         border-radius: 8px;
-        box-shadow: 2px 0px 2px grey;
-    }
+        /* &:hover{
+        box-shadow: 2px 2px 4px grey;
+        } */
+    } 
 
 `
 
