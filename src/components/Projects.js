@@ -32,7 +32,7 @@ const Projects =()=>{
                     </Tech>
                     <Links>
                         <a href="https://github.com/kaixuannnn/bootcamp_yelpcamp" target="_blank" rel="noreferrer">GitHub</a>
-                        <a href="https://morning-harbor-95031.herokuapp.com/" target="_blank" rel="noreferrer">Live</a>
+                        <a href="https://morning-harbor-95031.herokuapp.com/" target="_blank" rel="noreferrer">Go Live</a>
                     </Links>
                 </Details>
             </Toggle>
@@ -48,7 +48,7 @@ const Projects =()=>{
                     </Tech>
                     <Links>
                         <a href="https://github.com/kaixuannnn/musicplayer" target="_blank" rel="noreferrer">GitHub</a>
-                        <a href="https://kaixuannnn.github.io/musicplayer/" target="_blank" rel="noreferrer">Live</a>
+                        <a href="https://kaixuannnn.github.io/musicplayer/" target="_blank" rel="noreferrer">Go Live</a>
                     </Links>
                 </Details>
             </Toggle>
@@ -66,7 +66,7 @@ const Projects =()=>{
                     </Tech>
                     <Links>
                         <a href="https://github.com/kaixuannnn/capture" target="_blank" rel="noreferrer">GitHub</a>
-                        <a href="https://kaixuannnn.github.io/capture/" target="_blank" rel="noreferrer">Live</a>
+                        <a href="https://kaixuannnn.github.io/capture/" target="_blank" rel="noreferrer">Go Live</a>
                     </Links>
                 </Details>
             </Toggle>
@@ -84,7 +84,7 @@ const Projects =()=>{
                     </Tech>
                     <Links>
                         <a href="https://github.com/kaixuannnn/ignite" target="_blank" rel="noreferrer">GitHub</a>
-                        <a href="https://kaixuannnn.github.io/ignite/" target="_blank" rel="noreferrer">Live</a>
+                        <a href="https://kaixuannnn.github.io/ignite/" target="_blank" rel="noreferrer">Go Live</a>
                     </Links>
                 </Details>
             </Toggle>

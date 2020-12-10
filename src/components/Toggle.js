@@ -49,7 +49,7 @@ const Project = styled(motion.div)`
         overflow: hidden;
         position: relative;
         border-radius: 10px;
-        box-shadow: 0px 0px 8px grey;
+        box-shadow: 0px 0px 8px lightgrey;
     img { 
         height: 100%;
         width:100%;
